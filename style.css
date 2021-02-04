@@ -1,0 +1,137 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: turquoise;
+    background-size: height="300px" weight="500px";
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(o, 100, 0);
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15;
+}
+.menu-bar ul li{
+    text-decoration: none;
+    color:#fff
+}
+.active, .menu-bar ul li:hover{
+    background: #94f07d;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.search-form{
+    margin-top: 15px;
+    float: right;
+    margin-right: 90px;
+}
+input[type=text]{
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+button{
+    float: center;
+    background: rgb(209, 101, 200);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+.two{
+    background-color: thistle;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red  ;
+    
+}
+.outer-box{
+    background-color: royalblue;
+}
+.inner-box{
+    background-color: springgreen;
+    transform: scale(0.5) rotate(45deg);
+}
+.three{
+    background-color: honeydew;
+    flex-direction: column;
+}
+.green-box{
+   
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+
+}
+.red-box{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    margin: auto;
+    border-radius: 45%;
+
+
+}
+.box-1:hover{
+    background-color: hotpink;
+}
+.box-2:hover{
+    background-color: lime;
+}
+.box-1:hover + .box-2{
+    background-color: red;
+}
+.six{
+    background-color: springgreen;
+    padding: 10;
+    margin: 15;
+}
+.seven{
+    height: 150px;
+    width: 250;
+    border: 2px solid yellow;
+    overflow: scroll;
+}
+.eight{
+    height: 10px;
+    width: 20;
+    border: 2px solid rgb(53, 34, 160);
+    overflow: auto;
+}
